@@ -29,9 +29,9 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-fastapi--utils--with--all-green.svg)](https://anaconda.org/conda-forge/fastapi-utils-with-all) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/fastapi-utils-with-all.svg)](https://anaconda.org/conda-forge/fastapi-utils-with-all) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/fastapi-utils-with-all.svg)](https://anaconda.org/conda-forge/fastapi-utils-with-all) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/fastapi-utils-with-all.svg)](https://anaconda.org/conda-forge/fastapi-utils-with-all) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-fastapi_utils-green.svg)](https://anaconda.org/conda-forge/fastapi_utils) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/fastapi_utils.svg)](https://anaconda.org/conda-forge/fastapi_utils) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/fastapi_utils.svg)](https://anaconda.org/conda-forge/fastapi_utils) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/fastapi_utils.svg)](https://anaconda.org/conda-forge/fastapi_utils) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-fastapi_utils--core-green.svg)](https://anaconda.org/conda-forge/fastapi_utils-core) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/fastapi_utils-core.svg)](https://anaconda.org/conda-forge/fastapi_utils-core) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/fastapi_utils-core.svg)](https://anaconda.org/conda-forge/fastapi_utils-core) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/fastapi_utils-core.svg)](https://anaconda.org/conda-forge/fastapi_utils-core) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-fastapi_utils--with--all-green.svg)](https://anaconda.org/conda-forge/fastapi_utils-with-all) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/fastapi_utils-with-all.svg)](https://anaconda.org/conda-forge/fastapi_utils-with-all) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/fastapi_utils-with-all.svg)](https://anaconda.org/conda-forge/fastapi_utils-with-all) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/fastapi_utils-with-all.svg)](https://anaconda.org/conda-forge/fastapi_utils-with-all) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-fastapi_utils--with--session-green.svg)](https://anaconda.org/conda-forge/fastapi_utils-with-session) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/fastapi_utils-with-session.svg)](https://anaconda.org/conda-forge/fastapi_utils-with-session) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/fastapi_utils-with-session.svg)](https://anaconda.org/conda-forge/fastapi_utils-with-session) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/fastapi_utils-with-session.svg)](https://anaconda.org/conda-forge/fastapi_utils-with-session) |
 
 Installing fastapi_utils
@@ -44,41 +44,41 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `fastapi-utils-with-all, fastapi_utils, fastapi_utils-core, fastapi_utils-with-session` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `fastapi_utils, fastapi_utils-core, fastapi_utils-with-all, fastapi_utils-with-session` can be installed with `conda`:
 
 ```
-conda install fastapi-utils-with-all fastapi_utils fastapi_utils-core fastapi_utils-with-session
-```
-
-or with `mamba`:
-
-```
-mamba install fastapi-utils-with-all fastapi_utils fastapi_utils-core fastapi_utils-with-session
-```
-
-It is possible to list all of the versions of `fastapi-utils-with-all` available on your platform with `conda`:
-
-```
-conda search fastapi-utils-with-all --channel conda-forge
+conda install fastapi_utils fastapi_utils-core fastapi_utils-with-all fastapi_utils-with-session
 ```
 
 or with `mamba`:
 
 ```
-mamba search fastapi-utils-with-all --channel conda-forge
+mamba install fastapi_utils fastapi_utils-core fastapi_utils-with-all fastapi_utils-with-session
+```
+
+It is possible to list all of the versions of `fastapi_utils` available on your platform with `conda`:
+
+```
+conda search fastapi_utils --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search fastapi_utils --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search fastapi-utils-with-all --channel conda-forge
+mamba repoquery search fastapi_utils --channel conda-forge
 
-# List packages depending on `fastapi-utils-with-all`:
-mamba repoquery whoneeds fastapi-utils-with-all --channel conda-forge
+# List packages depending on `fastapi_utils`:
+mamba repoquery whoneeds fastapi_utils --channel conda-forge
 
-# List dependencies of `fastapi-utils-with-all`:
-mamba repoquery depends fastapi-utils-with-all --channel conda-forge
+# List dependencies of `fastapi_utils`:
+mamba repoquery depends fastapi_utils --channel conda-forge
 ```
 
 
