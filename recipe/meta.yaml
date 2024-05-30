@@ -60,7 +60,7 @@ outputs:
       requires:
         - pip
 
-  - name: fastapi-utils-with-all
+  - name: fastapi_utils-with-all
     build:
       noarch: generic
     requirements:
