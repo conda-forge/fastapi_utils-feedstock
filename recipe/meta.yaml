@@ -34,7 +34,7 @@ outputs:
         # upstream claims is optional, but does not import without
         - typing_inspect >=0.9.0,<0.10.0
       run_constrained:
-        - {{ pin_subpackage("fastapi_utils", exact=True) }}
+        - {{ pin_subpackage("fastapi_utils", max_pin="x.x.x") }}
         - sqlalchemy >=1.4,<2.0.0
         - pydantic-settings >=2.0.1,<3.0.0
     test:
@@ -50,7 +50,7 @@ outputs:
       noarch: generic
     requirements:
       run:
-        - {{ pin_subpackage("fastapi_utils-core", exact=True) }}
+        - {{ pin_subpackage("fastapi_utils-core", max_pin="x.x.x") }}
         - sqlalchemy
     test:
       imports:
@@ -65,7 +65,7 @@ outputs:
       noarch: generic
     requirements:
       run:
-        - {{ pin_subpackage("fastapi_utils-with-session", exact=True) }}
+        - {{ pin_subpackage("fastapi_utils-with-session", max_pin="x.x.x") }}
         - pydantic-settings
     test:
       imports:
@@ -81,7 +81,7 @@ outputs:
       noarch: generic
     requirements:
       run:
-        - {{ pin_subpackage("fastapi_utils-with-session", exact=True) }}
+        - {{ pin_subpackage("fastapi_utils-with-session", max_pin="x.x.x") }}
     test:
       imports:
         - fastapi_utils
