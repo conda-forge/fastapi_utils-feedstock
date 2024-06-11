@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 # handle undefined PYTHON in `noarch: generic` outputs
 {% if PYTHON is not defined %}{% set PYTHON = "$PYTHON" %}{% endif %}
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/fastapi-utils/fastapi_utils-{{ version }}.tar.gz
-  sha256: 4fd34ff7d3bcc8e31fd5c5a9c66c16ca09093e3d97663ed7e3bf013b380766a9
+  sha256: 074509405b02e2651dfe2d11862dd760bacc1a64508f3d8cc44e52a6dc1ed342
 
 build:
   noarch: python
