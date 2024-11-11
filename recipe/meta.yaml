@@ -92,7 +92,7 @@ outputs:
         - pip
 
 about:
-  home: https://fastapi-utils.davidmontague.xyz
+  home: https://fastapiutils.github.io/fastapi-utils
   summary: Reusable utilities for FastAPI
   license: MIT
   license_file: LICENSE
