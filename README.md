@@ -3,7 +3,7 @@ About fastapi_utils-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fastapi_utils-feedstock/blob/main/LICENSE.txt)
 
-Home: https://fastapi-utils.davidmontague.xyz
+Home: https://fastapiutils.github.io/fastapi-utils
 
 Package license: MIT
 
